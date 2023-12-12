@@ -16,7 +16,8 @@ buttons.forEach((button) => {
   button.addEventListener("click", () => {
 
     // Specify the URL of the PDF file you want to download
-    const pdfUrl = "./assets/assigment-2.pdf";
+    //const pdfUrl = "./assets/assigment-2.pdf";
+    const pdfUrl = "./assets/Faysal Hosen.pdf";
 
     // Create a link element
     const link = document.createElement("a");
@@ -25,7 +26,8 @@ buttons.forEach((button) => {
     link.href = pdfUrl;
 
     // Set the download attribute to suggest the name for the downloaded file
-    link.download = "assignment-2";
+    //link.download = "assignment-2";
+    link.download = "Faysal Hosen";
 
     // Append the link to the document
     document.body.appendChild(link);
